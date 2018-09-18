@@ -32,6 +32,7 @@ public class ArithmeticCalculatorServlet extends HttpServlet {
         int resultmul=0;
         int resultmod=0;
         String result="";
+        
         String firstnumber = request.getParameter("first");
         String secondnumber = request.getParameter("second");
        if(firstnumber.equals("") && secondnumber.equals(""))
